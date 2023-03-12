@@ -1,10 +1,52 @@
 <html>
+    <style>
+        html {
+    height: 100%;
+    width: 100%;
+    color: #40bc07d0;
+  }
+
+  head, body {
+    font-family: Arial;
+    color: #07bc2ed0;
+  }
+ a:visited, a:link, a:active {
+    text-decoration: none;
+ }
+ /* Button CSS (yay) */
+ .button {
+  background-color: #1955c4; /* Blue */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 12px;}
+.button {
+  background-color: #1955c4; /* Blue */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    </style>
  <div id="title/head/meta">
     <meta name="description" content="description be like" />
     <title>AsleepUBG | Home</title>
 <head>
     <h1 style="font-size: 250%;" align="center">AsleepUBG<br></h1>
-    <h3>where things do things</h3>
+    <h3 align="center">where things do things</h3>
 </head>
 </div>
 <body>
@@ -12,7 +54,7 @@
         <button class="button button1" onclick="startPlaying()">Start Playing!</button>
         <script lang="javascript">
             function startPlaying() {
-                window.location('https://asleep123.github.io/ubg/games/');
+                window.location.replace('https://asleep123.github.io/ubg/games/');
             }
 
         </script>
