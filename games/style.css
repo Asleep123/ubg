@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #1147aa;
+  }
+
+  head, body {
+    font-family: Arial;
+    color: #ffffffd0;
+  }
+ a:visited, a:link, a:active {
+    text-decoration: none;
+ }
+ /* Button CSS (yay) */
+ .button {
+  background-color: #1955c4; /* Blue */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 12px;}
